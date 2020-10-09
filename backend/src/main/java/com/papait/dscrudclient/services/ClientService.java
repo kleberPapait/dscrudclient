@@ -45,15 +45,6 @@ public class ClientService {
 		return new ClientDTO(entity);
 	}
 
-	private void copyDtoToEntity(ClientDTO dto, Client entity) {
-		entity.setName(dto.getName());
-		entity.setCpf(dto.getCpf());
-		entity.setIncome(dto.getIncome());
-		entity.setBirthDate(dto.getBirthDate());
-		entity.setChildren(dto.getChildren());
-
-	}
-
 	@Transactional
 	public ClientDTO updateClient(Long id, ClientDTO dto) {
 		try {
@@ -67,7 +58,8 @@ public class ClientService {
 		}
 
 	}
-	public void deleteProduct(Long id) {
+
+	public void deleteClient(Long id) {
 		try {
 			repository.deleteById(id);
 		} catch (EmptyResultDataAccessException e) {
@@ -75,6 +67,15 @@ public class ClientService {
 		} catch (DataIntegrityViolationException e) {
 			throw new DatabaseException("Integrity violation");
 		}
+	}
+
+	private void copyDtoToEntity(ClientDTO dto, Client entity) {
+		entity.setName(dto.getName());
+		entity.setCpf(dto.getCpf());
+		entity.setIncome(dto.getIncome());
+		entity.setBirthDate(dto.getBirthDate());
+		entity.setChildren(dto.getChildren());
+
 	}
 
 }
