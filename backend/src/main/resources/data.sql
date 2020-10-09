@@ -1,1 +1,13 @@
 INSERT INTO tb_client (name, cpf, income, date, children) VALUES ('Fabiana Leite','33778925805',5000.0,TIMESTAMP WITH TIME ZONE '2020-07-13T20:50:07.12345Z',0);
+INSERT INTO tb_client(name, cpf, income, date, children) VALUES('Anelise Papait', '44078956802',4897.0, TIMESTAMP WITH TIME ZONE '2020-09-25T12:30:01.45781Z',0);
+INSERT INTO tb_client(name,cpf,income,date,children) VALUES('Fernando Silva', '78945612308',2500.0, TIMESTAMP WITH TIME ZONE '2020-10-09T15:59:29.89459Z' ,0);
+INSERT INTO tb_client(name,cpf,income,date,children) VALUES('Bruna Salvi', '58215975320',6890.0, TIMESTAMP WITH TIME ZONE '2020-10-9T23:57:58Z' ,0);
+INSERT INTO tb_client(name,cpf,income,date,children) VALUES('Thiago Trovello', '258963159x1',3980.0, TIMESTAMP WITH TIME ZONE '2020-11-25T22:25:29.11119Z' ,0);
+INSERT INTO tb_client(name,cpf,income,date,children) VALUES('Guirlherme Barsan', '12365485296',7894.0, TIMESTAMP WITH TIME ZONE '2020-10-12T16:22:22.22222Z' ,0);
+INSERT INTO tb_client(name,cpf,income,date,children) VALUES('Felipe Alburque', '32165478999', 1987.0, TIMESTAMP WITH TIME ZONE '2020-02-29T14:25:29.111190Z' ,0);
+INSERT INTO tb_client(name,cpf,income,date,children) VALUES('Luisa Mentzner', '95175332111',5890.0, TIMESTAMP WITH TIME ZONE '2020-07-05T11:45:12.994477Z' ,0);
+INSERT INTO tb_client(name,cpf,income,date,children) VALUES('Matusalen Mello', '63985214921', 14000.0, TIMESTAMP WITH TIME ZONE '2020-01-01T09:21:05.215871Z' ,0);
+INSERT INTO tb_client(name,cpf,income,date,children) VALUES('Roberto Mancuso', '258852123654', 6900.0, TIMESTAMP WITH TIME ZONE '2020-03-09T18:39:15.00099Z' ,0);
+INSERT INTO tb_client(name,cpf,income,date,children) VALUES('Adriano Caitano', '45698526977',2780.0, TIMESTAMP WITH TIME ZONE '2020-04-08T14:12:05.78945Z' ,0);
+INSERT INTO tb_client(name,cpf,income,date,children) VALUES('Alex Sander', '36978942628', 3987.5, TIMESTAMP WITH TIME ZONE '2020-01-01T09:19:16.224477Z' ,0);
+INSERT INTO tb_client(name,cpf,income,date,children) VALUES('Junior Zotto', '35777895478', 3587.0, TIMESTAMP WITH TIME ZONE '2020-02-17T17:28:0.00199Z' ,0);
